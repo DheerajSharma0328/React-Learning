@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.holder{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    max-width: 300px;
+    padding: 20px;
+}
+
+.formdata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    gap: 15px;
+    padding: 20px;
+}
+
